@@ -39,7 +39,7 @@ body {
 
         .list {
             float: left;
-            padding: 0px 20px 0px 20px;
+            padding: 0px 10px 0px 10px;
 
             .list-text {
                 font-size: $sub-font;
@@ -51,12 +51,20 @@ body {
             .list-text:hover {
                 color: $orange;
             }
+
+            .resume {
+                width: 120px;
+                height: 40px;
+                border: none;
+                border-radius: 4px;
+            }
         }
     }
 }
 
 .content-container {
     margin-top: 50px;
+    text-align: center;
 
     .main-text {
         font-size: $extra-font;
@@ -68,5 +76,12 @@ body {
         font-size: $main-font;
         font-weight: $font-normal;
         color: $light-gray;
+    }
+
+    .see-btn {
+        width: 120px;
+        height: 40px;
+        border: none;
+        border-radius: 4px;
     }
 }
