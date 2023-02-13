@@ -1,0 +1,72 @@
+// FONT WEIGHT
+$font-light: 300;
+$font-normal: 400;
+$font-meduim: 500;
+$font-semi: 600;
+$font-bold: 700;
+$font-extra: 800;
+
+// FONT SIZE
+$main-font: 14px;
+$sub-font: 18px;
+$header-font: 26px;
+$extra-font: 46px;
+
+// COLORS
+$white: #FFFFFF;
+$light-gray: #949494;
+$black: #1A1A1A;
+$orange: #EC5C2E;
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: $black;
+}
+
+.top-container {
+    margin: 40px 0px 0px 0px;
+
+    .main-link {
+        font-size: $sub-font;
+        font-weight: $font-normal;
+        text-decoration: none;
+        color: $white;
+    }
+
+    .main-list {
+        list-style-type: none;
+        float: right;
+
+        .list {
+            float: left;
+            padding: 0px 20px 0px 20px;
+
+            .list-text {
+                font-size: $sub-font;
+                font-weight: $font-light;
+                text-decoration: none;
+                color: $white;
+            }
+
+            .list-text:hover {
+                color: $orange;
+            }
+        }
+    }
+}
+
+.content-container {
+    margin-top: 50px;
+
+    .main-text {
+        font-size: $extra-font;
+        font-weight: $font-extra;
+        color: $orange;
+    }
+
+    p {
+        font-size: $main-font;
+        font-weight: $font-normal;
+        color: $light-gray;
+    }
+}
